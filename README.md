@@ -43,7 +43,7 @@ O projeto tem como objetivo **conectar pessoas, hortas comunitárias e iniciativ
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/rede-de-colmeias.git
+git clone https://github.com/KWBezerra/rede-de-colmeias.git
 cd rede-de-colmeias
 ```
 
@@ -97,8 +97,8 @@ Acesse o projeto em: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ### Doações (futuro)
 
-* Texto explicativo sobre a funcionalidade planejada.
-
+* Pessoas responsaveis por Hortas comunitarias, podem preencher um formulario solicitando particiapar da "Rede de colmeias".
+* Pode solicitar o que deseja receber (ex:colmeias, instruçoes, materiais e etc...)
 ---
 
 ## 🎯 Objetivos do projeto
@@ -114,7 +114,6 @@ Acesse o projeto em: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 * Implementar sistema de cadastro de hortas comunitárias.
 * Validação por e-mail com token para confirmar participação.
 * Melhorias de responsividade e acessibilidade.
-* Deploy em plataforma gratuita (Railway, Render, Vercel, etc).
 
 ---
 
