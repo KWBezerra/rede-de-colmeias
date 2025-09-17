@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'donate.css' %}">
+{% endblock %}
+
+{% block title %}Doações{% endblock %}
+
+{% block content %}
+<div class="doacao-section">
+  <div class="doacao-content">
+    <h1>Doações e Hortas Comunitárias</h1>
+    <p>
+      Esta página será dedicada a conectar pessoas que desejam ajudar com a
+      <strong>meliponicultura</strong> em hortas comunitárias e projetos locais.
+    </p>
+    <p>
+      A ideia é simples: permitir que hortas comunitárias possam se cadastrar
+      e receber apoio de voluntários e doadores — seja com colmeias, materiais
+      ou conhecimento.
+    </p>
+    <p>
+      <em>Funcionalidade em desenvolvimento:</em> em breve você poderá cadastrar
+      sua horta, confirmar sua participação via e-mail e aparecer no portal
+      para que outros usuários entrem em contato e apoiem sua iniciativa. 🚀
+    </p>
+
+    <!-- <div class="doacao-placeholder">
+      <img src="{% static 'imagens/bee-donation.png' %}" alt="Abelha representando doações">
+    </div> -->
+  </div>
+</div>
+{% endblock %}

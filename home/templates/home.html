@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Página Inicial{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'home.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+  <div class="hero-content">
+    <div class="hero-title-img">
+      <h1>Conectando <br> Criadores de <br> <span>Abelhas Nativas</span></h1>
+      <div class="hexagon">
+        <img src="{% static 'imagens/BeeInicio.png' %}" alt="Imagem de abelha mandaçaia">
+      </div>
+    </div>
+
+    <p class="hero-subtitle">
+      Portal educativo e colaborativo para iniciantes em meliponicultura. 
+      Aprenda, compartilhe e preserve as abelhas sem ferrão do Brasil.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="btn-learn">📘 Quero Aprender</button>
+      <button class="btn-donate">💚 Quero Ajudar</button>
+    </div>
+  </div>
+</div>
+{% endblock %}

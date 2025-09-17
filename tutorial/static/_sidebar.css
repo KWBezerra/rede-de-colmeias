@@ -1,0 +1,22 @@
+
+#sidebar {
+  width: 200px;
+  min-height: 100vh;
+  background: #1d2230;
+  border-right: 1px solid #ddd;
+  padding: 10px 1px;
+  margin: 0; 
+}
+
+/* Links */
+#sidebar .nav-link {
+  color: #aaa6a6;
+  padding: 10px;  
+  transition: background-color 0.3s ease;  
+  border-bottom: 1px solid;
+}
+
+#sidebar .nav-link:hover {
+  background-color: rgba(255, 193, 7, 0.2);
+}
+
